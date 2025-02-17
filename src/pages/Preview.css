@@ -1,0 +1,113 @@
+.resume{
+    width: 900px;
+    margin: 5px auto;
+    padding: 10px 20px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    border: 3px solid black;
+    
+}
+.resume .flex-container,
+.resume .skilled
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+   
+    
+    border: 2px solid teal;
+    
+}
+.resume .skilled{
+    gap: 150px;
+    margin-top: 60px;
+}
+.flex-container .para,
+
+.flex-container .Image{
+ width: 50%;
+ display: flex;
+ margin: 10px;
+ flex-direction: column;
+}
+
+
+table{
+    width: 700px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+    margin-top: -250px;
+    justify-content: start;
+}
+table thead,
+table tbody{
+    width: 100%;
+}
+table thead th{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: teal;
+    padding: 8px;
+}
+table tbody tr{
+    border-bottom: 2px solid rgb(145, 224, 224);
+    transition:all ease-in 0.4s ;
+    border: 1px solid black;
+    cursor: pointer;
+    background: rgb(127, 194, 194);
+}
+table tbody td{
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    
+}
+
+
+.flex-container .field .title{
+    margin: 20px 0px;
+}
+.flex-container .field{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 12px;
+    justify-content: start;
+    
+}
+.flex-container .field label{
+    font-size: 15px;
+    color: teal;
+    font-weight: bold;
+    width: 25%;}
+   
+    .view-container1{
+        margin-bottom: 150px;
+    }
+    .view-container{
+        margin-bottom: -100px;
+    }
+    .resume button{
+        margin: 40px auto;
+    padding: 10px 300px;
+    outline: none;
+    border: 2px solid #43c6be;
+    border-radius: 4px;
+    background: #43c6be;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    }

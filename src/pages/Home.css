@@ -1,0 +1,472 @@
+iframe{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+    margin-top: -80px;
+    background: url('pexels-cottonbro-4065876.jpg');
+}
+
+.view-container,
+
+.add-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: grid;
+    font-family: Poppins;
+    place-content: center;
+}
+span{
+    color: orange;
+}
+ 
+.image-upload-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.box-decoration {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 130px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.image-upload-input {
+    display: none;
+}
+
+.image-upload-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.image-upload-button:hover {
+    background-color: #3e8e41;
+}
+
+.img-display-before {
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+}
+
+.img-display-after {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.personal-container{
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background: #171717;
+}
+.personal-container .title{
+    padding: 10px 0px;
+    font-size: 1.6em;
+    color: #fefefe;
+    text-shadow: 4px 1px 6px #faa02d;
+    letter-spacing: 4px;
+}
+.personal-container form{
+    width: 40%;
+    padding: 15px;
+    color: #fefefe;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    border: 3px solid #faa02d;
+    border-radius: 10px;
+    background: #222222;
+    box-shadow: 0px 0px 20px #5d5d5d;
+}
+.personal-container form .input-fields{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+.personal-container form .input-fields label{
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.personal-container form .input-fields .field{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.personal-container form .input-fields .field input,
+.personal-container form .input-fields textarea{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: 3px solid #faa02d;
+    border-radius: 4px;
+    color: #faa02d;
+    font-weight: 600;
+}
+.personal-container form .input-fields .field p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: crimson;
+}
+.personal-container form button{
+    margin: 15px auto;
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid #faa02d;
+    border-radius: 4px;
+    background: #faa02d;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.skills-container{
+    width: 100%;
+    height: 550px;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #171717;
+}
+.skills-container .title{
+    padding: 20px 0px;
+    font-size: 1.6em;
+    color: #fefefe;
+    text-shadow: 4px 1px 6px #43c6be;
+    letter-spacing: 4px;
+}
+.skills-container form{
+    width: 40%;
+    padding: 20px;
+    color: #fefefe;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid #43c6be;
+    border-radius: 10px;
+    background: #222222;
+    box-shadow: 0px 0px 20px #5d5d5d;
+}
+.skills-container form .input-fields{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.skills-container form .input-fields label{
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.skills-container form .input-fields .field{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.skills-container form .input-fields .field input,
+.skills-container form .input-fields textarea{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: 3px solid #43c6be;
+    border-radius: 4px;
+    color: #43c6be;
+    font-weight: 600;
+}
+.skills-container form .input-fields .field p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: crimson;
+}
+.skills-container form button{
+    margin: 20px auto;
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid #43c6be;
+    border-radius: 4px;
+    background: #43c6be;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.p{
+    color: #171717,#fefefe,#757575,#5d5d5d,#28afe9,#faa02d,#5dba6e,#f378b0,#43c6be,#d771f7,#5c5c5c,#c9c635
+}
+
+.experiance-container{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #171717;
+}
+.experiance-container .title{
+    padding: 20px 0px;
+    font-size: 1.6em;
+    color: #fefefe;
+    text-shadow: 4px 1px 6px #28afe9;
+    letter-spacing: 4px;
+}
+.experiance-container form{
+    width: 40%;
+    padding: 20px;
+    color: #fefefe;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 3px solid #28afe9;
+    border-radius: 10px;
+    background: #222222;
+    box-shadow: 0px 0px 20px #5d5d5d;
+}
+.experiance-container form .input-fields{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.experiance-container form .input-fields label{
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.experiance-container form .input-fields .field{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.experiance-container form .input-fields .field input,
+.experiance-container form .input-fields textarea{
+    width: 100%;
+    padding: 4px;
+    outline: none;
+    border: 3px solid #28afe9;
+    border-radius: 4px;
+    color: #28afe9;
+    font-weight: 600;
+}
+.experiance-container form .input-fields .field p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: crimson;
+}
+.experiance-container form button{
+    margin: 10px auto;
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid #28afe9;
+    border-radius: 4px;
+    background: #28afe9;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}.education-container{
+    width: 100%;
+    height: 550px;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #171717;
+}
+.education-container .title{
+    padding: 20px 0px;
+    font-size: 1.6em;
+    color: #fefefe;
+    text-shadow: 4px 1px 6px #5dba6e;
+    letter-spacing: 4px;
+}
+.education-container form{
+    width: 40%;
+    padding: 20px;
+    color: #fefefe;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid #5dba6e;
+    border-radius: 10px;
+    background: #222222;
+    box-shadow: 0px 0px 20px #5d5d5d;
+}
+.education-container form .input-fields{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.education-container form .input-fields label{
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.education-container form .input-fields .field{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.education-container form .input-fields .field input,
+.education-container form .input-fields textarea,
+.education-container form .input-fields select{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: 3px solid #5dba6e;
+    border-radius: 4px;
+    color: #5dba6e;
+    font-weight: 600;
+}
+.education-container form .input-fields .field p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: crimson;
+}
+.education-container form button{
+    margin: 20px auto;
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid #5dba6e;
+    border-radius: 4px;
+    background: #5dba6e;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Certifications-container{
+    width: 100%;
+    height: 550px;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #171717;
+}
+.Certifications-container .title{
+    padding: 20px 0px;
+    font-size: 1.6em;
+    color: #fefefe;
+    text-shadow: 4px 1px 6px #d771f7;
+    letter-spacing: 4px;
+}
+.Certifications-container form{
+    width: 40%;
+    padding: 20px;
+    color: #fefefe;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 3px solid #d771f7;
+    border-radius: 10px;
+    background: #222222;
+    box-shadow: 0px 0px 20px #5d5d5d;
+}
+.Certifications-container form .input-fields{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.Certifications-container form .input-fields label{
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.Certifications-container form .input-fields .field{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.Certifications-container form .input-fields input,
+.Certifications-container form .input-fields textarea{
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: 3px solid #d771f7;
+    border-radius: 4px;
+    color: #d771f7;
+    font-weight: 600;
+}
+.Certifications-container form .input-fields .field p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: crimson;
+}
+.Certifications-container form button{
+    margin: 20px auto;
+    padding: 10px 40px;
+    outline: none;
+    border: 2px solid #d771f7;
+    border-radius: 4px;
+    background: #d771f7;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
